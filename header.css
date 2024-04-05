@@ -2,27 +2,33 @@
 
 .header {
     display: block;
-    padding: 30px 0 0 0;
+    padding: 5px 0 0 0;
 }
 
 .header .container {
     display: flex;
+    background-color: #000;
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
 }
 
 .header .logo{
-    font-size: 3em;
-    background-color: #000;
-    color: rgb(255, 239, 8);
-    padding: 15px 30px;
-    margin-bottom: 1.5em;
+    font-size: 3em;    
+    color: #fff;
+    padding: 22px 2px;
+    margin-bottom: 0;
+    
+}
+
+.header .logo:hover{
+    background-color: #fff;
+    color: rgb(70, 81, 230);
 }
 
 .header .nav{
     width: 100%;
     display: block;
-    border-bottom: 5px solid rgb(255, 239, 8);
+    border-bottom: 5px solid rgb(70, 81, 230);
 }
 
 .header .nav .menu{
@@ -49,6 +55,6 @@
 }
 
 .header .nav .menu li a:hover{
-    background-color: rgb(255, 239, 8);
+    background-color: rgb(70, 81, 230);
     color: #000;
 }
